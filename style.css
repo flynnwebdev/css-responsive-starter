@@ -43,3 +43,9 @@ main {
 .feature-3 {
   background-color: #C8C6FA;
 }
+ footer{
+      background-color: black;
+      text-align: center;
+      font-size: 1rem;
+      color:white;
+  }
