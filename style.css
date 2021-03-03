@@ -43,3 +43,30 @@ main {
 #feature-3 {
   background-color: #C8C6FA;
 }
+
+/* Tablet */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  section {
+    width: 50%;
+  }
+}
+
+/* Desktop */
+@media only screen and (min-width: 961px) {
+  #sign-up {
+    order: 1;
+    height: 200px;
+  }
+  header {
+    height: 400px;
+  }
+  main {
+    height: auto;
+    min-height: 100vh;
+    order: 2;
+  }
+  .feature {
+    flex: 1;
+    height: 400px;
+  }
+}
